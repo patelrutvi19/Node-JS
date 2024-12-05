@@ -11,7 +11,7 @@ app.use(express.json()); // Parse JSON bodies
 const srouter = require('./routes/student.route');
 
 // Connection URI
-const uri = "mongodb+srv://milanmca111:Bx580EwcBXPPHVXT@nodejs.7vfdn.mongodb.net/milan";
+const uri = "mongodb+srv://milanmca111:Bx580EwcBXPPHVXT@nodejs.7vfdn.mongodb.net/rutvi";
 // Connect to MongoDB using Mongoose
 mongoose.connect(uri, {
     useNewUrlParser: true,
